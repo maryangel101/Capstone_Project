@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/img"
+        android:title="Home" />
+    <item
+        android:id="@+id/recommend"
+        android:icon="@drawable/img_1"
+        android:title="Recommend" />
+    <item
+        android:id="@+id/weather"
+        android:icon="@drawable/img_2"
+        android:title="Weather" />
+    <item
+        android:id="@+id/marketplace"
+        android:icon="@drawable/img_3"
+        android:title="Market Place" />
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/img_4"
+        android:title="News" />
+</menu>
