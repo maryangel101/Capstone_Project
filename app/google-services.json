@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "810874688798",
+    "project_id": "recommend1-de1f3",
+    "storage_bucket": "recommend1-de1f3.appspot.com"
+  },
+  "client": [
+    {
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhWCqtQ8vIvaafSAxiwY3QaDvA15PTB2g"
+        }
+      ],
+      "client_info": {
+        "mobilesdk_app_id": "1:810874688798:android:f834cbfb89abb5cb2f650f",
+        "android_client_info": {
+          "package_name": "com.example.recommend1"
+        }
+      },
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      },
+      "oauth_client": []
+    }
+  ],
+  "configuration_version": "1"
+}

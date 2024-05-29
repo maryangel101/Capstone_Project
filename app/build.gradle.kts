@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.androidApplication)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -8,8 +9,9 @@ android {
 
     defaultConfig {
         applicationId = "com.example.recommend1"
-        minSdk = 16
-        targetSdk = 34
+        minSdk = 21
+        //noinspection OldTargetApi
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -27,11 +29,6 @@ android {
     }
 
 
-
-
-
-
-
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8
@@ -44,6 +41,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.activity)
     implementation(libs.constraintlayout)
+    implementation(libs.firebase.database)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

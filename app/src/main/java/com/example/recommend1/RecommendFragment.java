@@ -5,10 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.io.*;
 import androidx.fragment.app.Fragment;
-
-import com.example.recommend1.R;
 
 public class RecommendFragment extends Fragment {
 

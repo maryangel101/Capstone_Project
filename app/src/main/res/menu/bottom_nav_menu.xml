@@ -1,24 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/home"
         android:icon="@drawable/img"
-        android:title="Home" />
+        android:title="Home"
+        tools:ignore="HardcodedText" />
     <item
         android:id="@+id/recommend"
         android:icon="@drawable/img_1"
-        android:title="Recommend" />
+        android:title="Recommend"
+        tools:ignore="HardcodedText" />
     <item
         android:id="@+id/weather"
         android:icon="@drawable/img_2"
-        android:title="Weather" />
+        android:title="Weather"
+        tools:ignore="HardcodedText" />
     <item
         android:id="@+id/marketplace"
         android:icon="@drawable/img_3"
-        android:title="Market Place" />
+        android:title="Market Place"
+        tools:ignore="HardcodedText" />
     <item
         android:id="@+id/news"
         android:icon="@drawable/img_4"
-        android:title="News" />
+        android:title="News"
+        tools:ignore="HardcodedText" />
 </menu>
